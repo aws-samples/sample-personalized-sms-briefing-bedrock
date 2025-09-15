@@ -60,7 +60,7 @@ The entire solution is built using AWS Cloud Development Kit (CDK) and AWS Lambd
 
     Repeat this process for your destination and origination phone numbers, creating separate secrets named DestinationPhone and OriginationPhone respectively.
 
-    If you prefer the CLI option, use the commands below. Replace the placeholder values with your actual API key, destination, and origination phone numbers, along with your preferred region. 
+    If you prefer the CLI option, use the commands below. Replace the placeholder values with your actual API key, destination and origination phone numbers, and your preferred region. The sample commands below use the us-east-1 region.
 
     ```
     aws secretsmanager create-secret \
